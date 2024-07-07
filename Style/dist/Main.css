@@ -8,18 +8,22 @@ body {
   background-color: #25292e;
 }
 
-.Buttons-Container #Hide-Btn, .Buttons-Container #Show-Btn, .Parent .Header {
+.Buttons-Container #Hide-Btn,
+.Buttons-Container #Show-Btn,
+.Parent .Header {
   font-size: 1.5rem;
   font-weight: 500;
   font-family: serif;
   letter-spacing: 2px;
-  padding: 20px;
+  padding: 0.5rem;
   border-radius: 15px;
   width: fit-content;
   border: 5px solid transparent;
   transition: 0.7s ease;
 }
-.Buttons-Container #Hide-Btn:hover, .Buttons-Container #Show-Btn:hover, .Parent .Header:hover {
+.Buttons-Container #Hide-Btn:hover,
+.Buttons-Container #Show-Btn:hover,
+.Parent .Header:hover {
   transform: scale(1.05);
   border-color: black;
 }
