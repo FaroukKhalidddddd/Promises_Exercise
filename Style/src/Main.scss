@@ -11,7 +11,7 @@ body {
   font-weight: 500;
   font-family: serif;
   letter-spacing: 2px;
-  padding: 20px;
+  padding: 0.5rem;
   border-radius: 15px;
   width: fit-content;
   border: 5px solid transparent;
@@ -24,7 +24,7 @@ body {
 .Parent {
   min-height: 20vh;
   display: grid;
-  margin: 2vh auto ;
+  margin: 2vh auto;
   grid-template-columns: repeat(4, auto);
   align-content: center;
   justify-items: center;
