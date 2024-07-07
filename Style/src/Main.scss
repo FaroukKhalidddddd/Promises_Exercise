@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #25292e;
+}
+%Placeholder {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: serif;
+  letter-spacing: 2px;
+  padding: 20px;
+  border-radius: 15px;
+  width: fit-content;
+  border: 5px solid transparent;
+  transition: 0.7s ease;
+  &:hover {
+    transform: scale(1.05);
+    border-color: black;
+  }
+}
+.Parent {
+  min-height: 20vh;
+  display: grid;
+  margin: 2vh auto ;
+  grid-template-columns: repeat(4, auto);
+  align-content: center;
+  justify-items: center;
+  width: 95%;
+  border-radius: 25px;
+
+  background: linear-gradient(to right, #ff5f6d, #ffc371, #6dd5ed);
+
+  .Header {
+    @extend %Placeholder;
+    border-color: gray;
+    display: none;
+  }
+}
+
+.Buttons-Container {
+  margin-top: 5vh;
+  // background-color: orange;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+
+  #Show-Btn {
+    @extend %Placeholder;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffc371;
+  }
+  #Hide-Btn {
+    @extend %Placeholder;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffc371;
+  }
+}
+@media only screen and (max-width: 3500px) {
+  html {
+    font-size: 37px;
+  }
+}
+@media only screen and (max-width: 3000px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 2500px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+}
